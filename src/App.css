@@ -1,0 +1,56 @@
+.container {
+  display: flex; /*makes the container a flex container to better position my elements*/
+  flex-direction: column;
+  padding: 30px;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://live.staticflickr.com/65535/49591203887_d2c90ebf56_b.jpg");
+  background-size: cover; /*this declaration makes my background image cover the full screen */
+  text-align: center;
+}
+
+.input {
+  /*I changed the default size of the input box and it's input font specifications using the declarations below*/
+  width: 70%;
+  padding: 10px;
+  margin: auto;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.heading {
+  font-size: 2.3rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 500;
+  background-color: lightblue;
+  padding: 5px;
+  border-radius: 15px;
+  text-shadow: 2px 2px white;
+  margin-bottom: 25%;
+  outline: 1px solid gold;
+  color: rgb(5, 65, 5);
+}
+
+.city {
+  font-size: 2.6rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
+  margin-bottom: 45px;
+  font-weight: 800;
+  text-shadow: 2px 2px black;
+}
+
+.temp {
+  font-size: 7rem; /*I made the temperature value the biggest to make it the focal point of the page*/
+  color: darkblue;
+  text-shadow: 2px 2px 3px white;
+}
+
+.weather {
+  font-size: 2.6rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
+  text-shadow: 2px 2px 3px black;
+}
