@@ -19,7 +19,7 @@ function App() {
         .then((data) => {
           //the line below updates the weatherData variable with data from the api
           setWeatherData(data);
-          //the line below clears the input box after a city's temperature data is shown
+          //the line below clears the input box after a city's temperature data is shown to the user
           setCity("");
         });
     }
