@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
   //to protect the api key I stored it in a .env file and referenced it in the code using import.meta.env
   const apiKey = import.meta.env.VITE_API_KEY;
-  //the data for the weather from the api is initially empty
+  //the data for the weather conditions from the api is initially empty
   const [weatherData, setWeatherData] = useState([{}]);
   //the initial value in the input box is set to an empty string
   const [city, setCity] = useState("");
