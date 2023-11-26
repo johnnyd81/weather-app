@@ -1,5 +1,5 @@
 .container {
-  display: flex; /*makes the container a flex container to better position my elements*/
+  display: flex; /*makes the container a flex container to better position my elements on the webpage*/
   flex-direction: column;
   padding: 30px;
   height: 100vh;
