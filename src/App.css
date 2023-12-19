@@ -11,7 +11,7 @@
 }
 
 .input {
-  /*I changed the default size of the input box and it's input font specifications using the declarations below*/
+  /*I changed the default size of the input field and it's input font specifications using the declarations below*/
   width: 70%;
   padding: 10px;
   margin: auto;
@@ -43,7 +43,7 @@
 }
 
 .temp {
-  font-size: 7rem; /*I made the temperature value the biggest to make it the focal point of the page*/
+  font-size: 7rem; /*I made the temperature value the biggest font size to make it the focal point of the page*/
   color: darkblue;
   text-shadow: 2px 2px 3px white;
 }
