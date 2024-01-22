@@ -7,7 +7,7 @@
   align-items: center;
   background-image: url("https://live.staticflickr.com/65535/49591203887_d2c90ebf56_b.jpg");
   background-size: cover; /*this declaration makes my background image cover the full screen */
-  text-align: center;
+  text-align: center; /* neatly centers all the text in the container div*/
 }
 
 .input {
