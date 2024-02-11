@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 
 function App() {
-  //the api key was stored in a .env file and referenced in the code using import.meta.env
+  //the api key was stored in a .env file and referenced in the code using import.meta.env that has the key as one of it's properties
   const apiKey = import.meta.env.VITE_API_KEY;
   //the data for the weather conditions from the api is initially empty
   const [weatherData, setWeatherData] = useState([{}]);
