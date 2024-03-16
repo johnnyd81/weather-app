@@ -44,7 +44,7 @@
 }
 
 .temp {
-  font-size: 7rem; /*I made the temperature value the biggest font size to make it the focal point of the page*/
+  font-size: 7rem; /*I made the temperature value the biggest font size on the page to make it the focal point of the page*/
   color: darkblue;
   text-shadow: 2px 2px 3px white;
 }
