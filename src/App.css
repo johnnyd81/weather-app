@@ -2,6 +2,8 @@
   display: flex; /*makes the container a flex container to better position my elements*/
   flex-direction: column; /* sets the content to be displayed in a column down the center of the webpage*/
   padding: 10px;
+  flex-direction: column; /* sets the content to be displayed in a column layout down the center of the webpage*/
+  padding: 30px;
   height: 100vh;
   justify-content: center;
   align-items: center;
@@ -44,7 +46,7 @@
 }
 
 .temp {
-  font-size: 7rem; /*I made the temperature value the biggest font size to make it the focal point of the page*/
+  font-size: 7rem; /*I made the temperature value the biggest font size on the page to make it the focal point of the page*/
   color: darkblue;
   text-shadow: 2px 2px 3px white;
 }
