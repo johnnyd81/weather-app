@@ -11,6 +11,7 @@ function App() {
 
   const getWeather = (event) => {
     //the if statement checks if the keyboard event equals the enter key on the keyboard and then the data for a specific city is fetched from the weather api
+    //the api key is used to keep track of the amount of times the user calls the api for data
     if (event.key === "Enter") {
       fetch(
         `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&APPID=${apiKey}`
