@@ -21,6 +21,7 @@ function App() {
           //the line below updates the weatherData stateful variable with data from the api
           setWeatherData(data);
           //the line below clears the input box after a city's temperature data is shown to the user
+          //since the city value is a state variable the setCity() method is used to update it
           setCity("");
         });
     }
