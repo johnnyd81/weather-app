@@ -6,7 +6,7 @@ function App() {
   const apiKey = import.meta.env.VITE_API_KEY;
   //the array for the weather conditions from the api is initially empty
   const [weatherData, setWeatherData] = useState([{}]);
-  //the initial value of the city in the input box is set to an empty string
+  //the initial state value of the city in the input box is set to an empty string
   const [city, setCity] = useState("");
 
   const getWeather = (event) => {
