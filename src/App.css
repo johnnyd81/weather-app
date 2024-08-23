@@ -36,7 +36,7 @@
   color: rgb(5, 65, 5);
 }
 
-/*style declaration to style the city name*/
+/*style declaration to style the city name i.e. the location*/
 .city {
   font-size: 2.6rem;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
