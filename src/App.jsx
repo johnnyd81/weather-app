@@ -10,7 +10,7 @@ function App() {
   const [city, setCity] = useState("");
 
   const getWeather = (event) => {
-    //the if statement checks if the keyboard event equals the enter key on the keyboard and then the data for a specific city is fetched from the weather api
+    //the if statement checks if the keyboard event equals the enter key on the keyboard and then the data for a chosen city is fetched from the weather api
     //the api key is used to keep track of the amount of times the user calls the api for weather data for a specific location
     if (event.key === "Enter") {
       fetch(
